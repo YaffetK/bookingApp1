@@ -5,13 +5,24 @@ function App() {
 
 
   return (
-    <div className="App">
-      <main>
+    <main>
 
-        <h1 className='text-red'> Hello</h1>
+      <section className=' bg-gray-500 min-h-screen'>
 
-      </main>
-    </div>
+
+        <nav className=' flex font-bold p-10 border bg-amber-200 mb-2'>
+          <ul className=' text-black flex flex-row gap-10 ml-20'>
+            <li>Home</li>
+            <li>About</li>
+            <li className='bg-blue-500 text-black'> <a href='#'>Resume</a></li>
+          </ul>
+        </nav>
+
+        <h1 className=' font-bold text-center'> Hello World</h1>
+
+      </section>
+
+    </main>
   )
 }
 
