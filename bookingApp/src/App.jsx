@@ -6,7 +6,7 @@ function App() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
-  const handleSubmit = async () => {
+  const handleSubmit = () => {
 
     try {
       if (email) {
@@ -66,7 +66,7 @@ function App() {
                   placeholder='JohnDoe@gmail.com'
                   value={password}
                   onChange={(e) => {
-                    setPwd(e.target.value)
+                    setPassword(e.target.value)
                   }}
                   required
                 />
