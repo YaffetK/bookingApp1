@@ -33,7 +33,7 @@ function App() {
       <section className=' bg-gradient-to-r from-lblue to-blue min-h-screen'>
 
 
-        <nav className=' flex font-bold p-10 border bg-amber-200 mb-2 '>
+        <nav className=' flex font-bold p-10 border bg-amber-200 mb-2'>
           <ul className=' text-black flex justify-between flex-row gap-10 ml-20 w-screen'>
             <li>Home</li>
             <li>About</li>
@@ -48,11 +48,11 @@ function App() {
         <h1 className=' font-bold text-center text-2xl'> We are the innovation</h1>
 
 
-        <div className="flex border-spacing-1 mr-20 justify-center p-20">
-          <form className='flex flex-col justify-center'>
+        <div className="flex justify-center p-20 text-center">
+          <form className='flex flex-col justify-center bg-grays p-20'>
 
             <div className="mb-1">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">Email:</label>
               <input
                 className='p-3'
                 id="email"
@@ -67,7 +67,7 @@ function App() {
             </div>
 
             <div className=" ">
-              <label htmlFor="password">Password</label>
+              <label htmlFor="password">Password:</label>
               <input
                 className=' p-3'
                 id="password"
@@ -81,7 +81,7 @@ function App() {
               />
             </div>
 
-            <button className="bg-gray-500 p-5" onClick={handleSubmit} type='submit' >Submit</button>
+            <button className="bg-gray-500 p-5 mt-5" onClick={handleSubmit} type='submit' >Submit</button>
           </form>
         </div>
 
