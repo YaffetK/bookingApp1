@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './index.css'
 import logo from "./assets/react.svg"
 
+
 function App() {
 
   const [email, setEmail] = useState("")
@@ -9,22 +10,24 @@ function App() {
 
   const handleSubmit = () => {
 
-    try {
-      if (email) {
-        console.log('Login success')
-      }
-      fetch()
+    fetch('//localhost:5432/postgres', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        email: { email },
+        password: { password }
 
+      })
+    })
+      .then(res => res.json())
+      .then(data => console.log(data))
+      .catch(() => console.log('Error'))
 
-
-      displayBoxes()
-      console.log('Boxar genereras')
-    }
-    catch (error) {
-      console.error(error)
-
-    }
   }
+
+
 
 
   return (
