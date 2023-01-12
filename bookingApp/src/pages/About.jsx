@@ -1,25 +1,13 @@
 import React from "react";
-import Navbar from '../components/Navbar'
+import Navbar from "../components/Navbar";
 
 const About = () => {
-
-
-
-
     return (
+        <main>
+            <Navbar />
 
-        <div>
-
-            <nav>
-                <Navbar />
-
-            </nav>
-
-
-
-
-            <div>About</div>
-        </div>
+            <h1 className="text-5xl text-center text-blue">We are the future we are the innovation</h1>
+        </main>
     )
 };
 
