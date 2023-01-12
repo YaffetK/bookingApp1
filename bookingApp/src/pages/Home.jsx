@@ -8,7 +8,7 @@ function Home() {
 
     const handleSubmit = () => {
         const request = new XMLHttpRequest()
-        request.open('GET', 'https://restcountries.com/v3.1/name/sweden')
+        request.open('GET', '/localhost:5432/postgres')
         request.send()
 
         request.addEventListener('load', () => {
