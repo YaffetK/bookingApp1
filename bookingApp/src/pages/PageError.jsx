@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 
-const About = () => {
+const PageError = () => {
     return (
         <main>
+
             <Navbar />
 
-            <h1 className="text-5xl text-center text-blue">We are the future we are the innovation</h1>
+            <h1 className="text-center text-amber-800 text-5xl">Page not Found</h1>
         </main>
     )
 };
 
-export default About;
+export default PageError;
