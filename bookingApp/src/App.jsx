@@ -8,17 +8,18 @@ function App() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
 
+  // Check async await - read about callback hell
+  // ORM = Object Relational Mapping. 
   const handleSubmit = () => {
 
-    fetch('//localhost:5432/postgres', {
+    fetch('localhost:3000/player', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        email: { email },
-        password: { password }
-
+        email,
+        password
       })
     })
       .then(res => res.json())
@@ -27,15 +28,10 @@ function App() {
 
   }
 
-
-
-
   return (
     <main>
 
-      <section className=' bg-gradient-to-r from-lblue to-blue min-h-screen'>
-
-
+      <section className='bg-gradient-to-r from-lblue to-blue min-h-screen'>
         <nav className=' flex font-bold p-10 border bg-amber-200 mb-2'>
           <ul className=' text-black flex justify-between flex-row gap-10 ml-20 w-screen'>
             <li>Home</li>
@@ -49,7 +45,6 @@ function App() {
         </div>
 
         <h1 className=' font-bold text-center text-2xl'> We are the innovation</h1>
-
 
         <div className="flex justify-center p-20 text-center">
           <form className='flex flex-col justify-center bg-grays p-20'>
