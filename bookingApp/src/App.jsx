@@ -1,8 +1,6 @@
 import '../src/index.css'
-import Home from './pages/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import About from './pages/About'
-import PageError from './pages/PageError'
+
 
 
 function App() {

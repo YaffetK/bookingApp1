@@ -1,0 +1,116 @@
+.eventsTxt{
+    position: absolute;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.pageTitle .subtitlee{
+position: absolute;
+width: 150px;
+color: black;
+margin-top: -90px;
+font-weight: 300;
+font-size: 14px;
+}
+.pageImg{
+    position: absolute;
+    margin-top: 100px;
+   
+}
+.eventDesc{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 300px;
+    text-align: center;
+    margin-left: -40px;
+    line-height: 15px;
+}
+.border1{
+    position: absolute;
+    margin-top: 300px;
+    border: 0.5px solid #A9A9A9;
+    width: 390px;
+    margin-left: -40px;
+    margin-top: 400px;
+    opacity: 0.5;
+}
+.clockImg{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: -150px;
+}
+.whenTxt{
+    position: absolute;
+    margin-top: 428px;
+    margin-left: 50px;
+    font-weight:300;
+    color: #A9A9A9;
+    font-size: 12px;
+}
+.timeTxt{
+    position: absolute;
+    margin-top: 428px;
+    margin-left: 225px;
+    color: #A9A9A9;
+    font-weight: 300;
+    font-size: 12px;
+}
+.border2{
+    position: absolute;
+    margin-top: 400px;
+    border: 0.5px solid #A9A9A9;
+    width: 390px;
+    margin-left: -40px;
+    margin-top: 470px;
+    opacity: 0.5;
+}
+.locationImg {
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -150px;
+}
+.whereTxt{
+    position: absolute;
+    margin-top: 498px;
+    margin-left: 50px;
+    font-weight:300;
+    color: #A9A9A9;
+    font-size: 12px;
+}
+.locationTxt{
+    position: absolute;
+    margin-top: 498px;
+    margin-left: 225px;
+    color: #A9A9A9;
+    font-weight: 300;
+    font-size: 12px;
+}
+.locationTxt2{
+    position: absolute;
+    margin-top: 515px;
+    margin-left: 225px;
+    color: #A9A9A9;
+    font-weight: 300;
+    font-size: 12px;
+}
+.border3 {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: -40px;
+    border: 0.5px solid #A9A9A9;
+    opacity: 0.5;
+    width: 390px;
+}
+.rsvpBtn{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: -70px;
+    width: 140px;
+    height: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #E8E337;
+    color: white;
+    font-weight: bold;
+}

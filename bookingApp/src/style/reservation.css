@@ -1,0 +1,162 @@
+.vector {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -12px;
+}
+
+.sendRequestBtn {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 60px;
+
+    border: none;
+    background-color: #E8E337;
+    color: white;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+
+.cross {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -170px;
+}
+
+.titleInput {
+    position: absolute;
+    margin-top: 49px;
+    margin-left: -140px;
+    width: 330px;
+    height: 35px;
+    border: none;
+}
+
+.titleInput::placeholder {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #A9A9A9;
+}
+
+.borderr1 {
+    position: absolute;
+    margin-top: 98px;
+    border: 0.5px solid #A9A9A9;
+    opacity: 0.5;
+}
+
+.clockImgg{
+    position: absolute;
+    margin-top: 112px;
+    margin-left: -175px;
+}
+.allDayTxt{
+    position: absolute;
+    margin-top: 108px;
+    margin-left: 30px;
+
+    font-weight: 300;
+    font-size: 14px;
+}
+.switch{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 100px;
+}
+.startDate{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30px;
+
+    font-weight: 300;
+    font-size: 14px;
+}
+.endDate{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 30px;
+
+    font-weight: 300;
+    font-size: 14px;
+}
+.startTime{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 252px;
+
+    font-weight: 300;
+    font-size: 14px;
+}
+.endTime{
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 252px;
+
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.borderr2{
+    position: absolute;
+    margin-top: 225px;
+    border: 0.5px solid #A9A9A9;
+    opacity: 0.5;
+}
+
+.peopleIcon{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -175px;
+}
+.addPplInput{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -129px;
+    border: none;
+}
+
+.addPplInput::placeholder{
+    font-size: 16px;
+    font-weight: 300;
+    color: #A9A9A9;
+}
+.borderr3{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: -40px;
+    border: 0.5px solid #A9A9A9;
+    width: 389px;
+    opacity: 0.5;
+}
+
+.descIcon{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -175px;
+}
+
+.addDescInput{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -130px;
+    border: none;
+}
+
+.addDescInput::placeholder{
+    font-size: 16px;
+    font-weight: 200;
+    color: #A9A9A9;
+}
+.borderr4{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: -40px;
+    width: 389px;
+    border: 0.5px solid #A9A9A9;
+    opacity: 0.5;
+}

@@ -1,19 +1,20 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import companyLogo from "../assets/changershub.png";
+import hamburgarmeny from "../assets/hamburgarmeny.png";
+import navbarcss from '../style/navbar.css'
 
 const Navbar = () => {
-    return (
-
-        <div>
-            <nav className=' flex font-bold p-10 border bg-amber-200 mb-2'>
-                <ul className=' text-black flex justify-evenly flex-row gap-10 ml-20 w-screen'>
-                    <li><Link to="/">Home </Link></li>
-                    <li><Link to="/about">About</Link></li>
-
-                </ul>
-            </nav>
-        </div>
-    )
-}
+  return (
+    <nav className="bg-red-500">
+    <hr className="border"></hr>
+    <a href="/">
+     <img src={companyLogo} className="logo" alt="company logo" />
+     </a>
+     <button className="hamburgarmeny">
+        <img src={hamburgarmeny} alt="menu"/>
+     </button>
+     </nav>
+  );
+};
 
 export default Navbar;

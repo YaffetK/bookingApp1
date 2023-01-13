@@ -1,0 +1,110 @@
+.pageTitlee{
+    margin-top: 10px;
+    position: absolute;
+    color: #A9A9A9;
+}
+
+.inputFieldd {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: -105px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0.5px solid #A9A9A9;
+}
+
+.inputFieldd::placeholder {
+    padding-left: 40px;
+    font-size: 0.9rem;
+    opacity: 0.4;
+}
+
+.input .searchIcon {
+    position: absolute;
+    margin-left: -90px;
+    width: 12px;
+    margin-top: 170px;
+}
+
+.input .filterIcon {
+    position: absolute;
+    margin-left: 74px;
+    opacity: 0.4;
+    width: 12px;
+    margin-top: 170px;
+}
+
+.filterOption1 {
+    position: absolute;
+    border-radius: 100px;
+    border: 0.5px solid #A9A9A9;
+    width: 90px;
+    height: 20px;
+    margin-top: 270px;
+    margin-left: -150px;
+    background: none;
+    color: #A9A9A9;
+}
+
+.filterOption2 {
+    position: absolute;
+    border-radius: 100px;
+    border: 0.5px solid #A9A9A9;
+    width: 90px;
+    height: 20px;
+    margin-top: 270px;
+    margin-left: -50px;
+    background: none;
+    color: #A9A9A9;
+}
+
+.filterOption3 {
+    position: absolute;
+    border-radius: 100px;
+    border: 0.5px solid #A9A9A9;
+    width: 90px;
+    height: 20px;
+    margin-top: 270px;
+    margin-left: 50px;
+    background: none;
+    color: #A9A9A9;
+}
+
+.filterOption1:hover {
+    background-color: #E8E337;
+    color: #ffff;
+}
+
+.filterOption2:hover {
+    background-color: #E8E337;
+    color: #ffff;
+}
+
+.filterOption3:hover {
+    background-color: #E8E337;
+    color: #ffff;
+}
+
+.listing1{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.listingTxt1{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: -30px;
+}
+.listing2{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 38px;
+}
+.listingTxt2{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: -30px;
+}

@@ -1,0 +1,103 @@
+.pageTitle .VideoEquipTxt {
+margin-top: -120px;
+position: absolute;
+font-size: 14px;
+font-weight: 500;
+color: #A9A9A9;
+width: 200px;
+margin-left: -40px;
+}
+
+.pageTitle .subtitle{
+    position: absolute;
+    margin-top: -90px;
+    color: black;
+    font-weight: 300;
+    font-size: 12px;
+    width: 300px;
+    margin-left: -10px;
+}
+
+.bmImg1{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -90px;
+}
+
+.bmImg2{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: -170px;
+}
+.bmImg3{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: -80px;
+}
+.bmImg4{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 10px;
+}
+.bmImg5{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 110px;
+}
+.currentImgBorder{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 72px;
+
+    width: 80px;
+    height: 70px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.listingDesc{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: -40px;
+
+    font-size: 12px;
+    font-weight: 300;
+}
+.scheduleImg{
+    position: absolute;
+    margin-top:450px;
+    margin-left: -155px;
+}
+
+.checkbox {
+    position: absolute;
+    margin-top: 678px;
+    margin-left: 20px;
+    width: 16px;
+    height: 16px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+
+.termsTxt {
+    position: absolute;
+    margin-top: 676px;
+    margin-left: 55px;
+    padding-bottom: 40px;
+
+    font-size: 12px;
+    font-weight: 300;
+}
+.reservationBtn {
+    position: absolute;
+    margin-top: 720px;
+    margin-left: -100px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E8E337;
+    color: white;
+}

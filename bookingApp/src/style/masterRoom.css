@@ -1,0 +1,118 @@
+.pageTitlee{
+    position: absolute;
+    text-align: left;
+}
+.title {
+    position: absolute;
+    margin-top: 50px;
+    color: #A9A9A9;
+    margin-bottom: -20px;
+}
+
+.subTitlee {
+    position: absolute;
+    font-weight: 300;
+    margin-top: 80px;
+    width: 250px;
+}
+
+.backbutton img{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.pageImgg {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 8px;
+}
+
+.pageDesc p {
+    position: absolute;
+    margin-top: 400px;
+    text-align: center;
+    margin-left: -40px;
+
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.location {
+    position: absolute;
+    margin-top: 450px;
+}
+
+.borderr1 {
+    position: absolute;
+    border: 0.5px solid #A9A9A9;
+    width: 390px;
+    margin-left: -45px;
+    margin-top: 15px;
+}
+.borderr2 {
+    position: absolute;
+    border: 0.5px solid #A9A9A9;
+    width: 390px;
+    margin-left: -45px;
+    margin-top: -5px;
+}
+
+.locationIcon{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -150px;
+    opacity: 0.7;
+}
+
+.locationDesc {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.locationName {
+    color:#A9A9A9;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.locationAdress {
+    color:#A9A9A9;
+    margin-left: 220px;
+}
+
+.schedulee {
+    position: absolute;
+    margin-top: 580px;
+}
+
+.checkboxx {
+    position: absolute;
+    margin-top: 800px;
+    margin-left: -130px;
+
+}
+
+.termsTxtt {
+    position: absolute;
+    margin-top: 795px;
+    margin-left: 55px;
+    padding-bottom: 40px;
+
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.reservationBtnn {
+    position: absolute;
+    margin-top: 830px;
+    margin-left: -80px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    background-color: #E8E337;
+    color: white;
+
+}

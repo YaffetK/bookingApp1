@@ -1,0 +1,96 @@
+.pageTitle{
+    position: absolute;
+   
+    color: #A9A9A9;
+}
+.row1 .img1{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -40px;
+}
+.row1 .img2 {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: -40px;
+}
+.row2 .img3 {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: -20px;
+}
+.row3 .img1{
+    position: absolute;
+    margin-top:440px;
+    margin-left: -25px;
+    
+}
+.row3 .img2{
+    position: absolute;
+    margin-top: 440px;
+    margin-left: 160px;
+}
+
+ .rsvpBackground{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: #E8E337;
+    border-radius: 3px;
+
+}
+.rsvpTxt1{
+    position: absolute;
+    font-weight: 400;
+    margin-top: -2px;
+    margin-left: 12px;
+}
+.rsvp1 {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 30px;
+}
+
+.rsvpTxt2{
+    position: absolute;
+    font-weight: 400;
+    margin-top: -2px;
+    margin-left: 12px;
+}
+.rsvp2 {
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 220px;
+}
+.rsvpTxt3{
+    position: absolute;
+    font-weight: 400;
+    margin-top: -2px;
+    margin-left: 12px;
+}
+.rsvp3{
+    position: absolute;
+    margin-top: 445px;
+    margin-left: 130px;
+}
+.rsvpTxt4{
+    position: absolute;
+    font-weight: 400;
+    margin-top: -2px;
+    margin-left: 12px;
+}
+.rsvp4{
+    position: absolute;
+    margin-top: 645px;
+    margin-left: 30px;
+}
+.rsvpTxt5{
+    position: absolute;
+    font-weight: 400;
+    margin-top: -2px;
+    margin-left: 12px;
+}
+.rsvp5{
+    position: absolute;
+    margin-top: 645px;
+    margin-left: 220px;
+}
