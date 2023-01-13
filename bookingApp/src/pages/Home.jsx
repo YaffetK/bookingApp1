@@ -1,9 +1,10 @@
 import React from "react";
 import { useState } from 'react'
 import '../../src/index.css'
-import logo from "../../src/assets/react.svg"
+import logo from "../../src/assets/mugiwara.png"
 import Navbar from "../components/Navbar";
 import LoginForm from "../components/LoginForm";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -37,7 +38,9 @@ const Home = () => {
                 <Navbar />
 
                 <div className='flex justify-center m-10'>
-                    <img src={logo} width={48} height={48} />
+
+                    <img src={logo} width={80} height={80} />
+
                 </div>
 
                 <h1 className=' font-bold text-center text-2xl'> We are the innovation</h1>

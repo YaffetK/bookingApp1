@@ -64,7 +64,9 @@ const LoginForm = () => {
         <div className=" bg-white rounded-full p-5">
 
           <p>Don´t have an account?</p>
-          <p><Link to="/register">Register</Link></p>
+          <div className="flex justify-center">
+            <p className="hover:bg-yellow-500 text-blue rounded-lg w-20"><Link to="/register">Register</Link></p>
+          </div>
         </div>
 
       </form>
