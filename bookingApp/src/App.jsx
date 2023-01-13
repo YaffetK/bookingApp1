@@ -1,5 +1,6 @@
 import '../src/index.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import LandingPage from './pages/LandingPage'
 
 
 
@@ -10,10 +11,7 @@ function App() {
     <Router>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path='/*' element={<PageError />} />
-
+        <Route path="/" element={<LandingPage />} />
 
       </Routes>
 
