@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const LoginForm = () => {
 
@@ -25,7 +26,7 @@ const LoginForm = () => {
   }
   return (
 
-    <div className="flex justify-center p-20 text-center">
+    <div className="flex justify-center p-20 text-center ">
       <form className='flex flex-col justify-center bg-grays p-20'>
 
         <div className="mb-1">
@@ -58,7 +59,14 @@ const LoginForm = () => {
           />
         </div>
 
-        <button className="bg-gray-500 p-5 mt-5" onClick={handleSubmit} type='submit' >Submit</button>
+        <button className="bg-gray-500 p-5 my-5 hover:bg-red-200" onClick={handleSubmit} type='submit' >Submit</button>
+
+        <div className=" bg-white rounded-full p-5">
+
+          <p>Don´t have an account?</p>
+          <p><Link to="/register">Register</Link></p>
+        </div>
+
       </form>
     </div>
   )
