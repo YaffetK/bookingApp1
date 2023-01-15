@@ -1,18 +1,19 @@
 import React from "react";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 import videoequipment from "../assets/videoEquipLP.png";
 import landingPageImg from "../assets/Lp.png";
 import events from "../assets/eventsLp.png";
 import bookings from "../assets/BookingsLp.png";
 import premises from "../assets/premisesLp.png";
-import landingPageCss from "../style/landingPage.css";
 import searchIcon from "../assets/Union.png";
 
 const LandingPage = () => {
   return (
-    <>
-    <Navbar />
-      <div className="landingpage" id="landingpage">
+
+    <main>
+      <Navbar />
+
+      <section className="pl-20 ml-20" id="landingpage">
         <div className="welcomeMessage">
           <p>Welcome User234</p>
         </div>
@@ -62,8 +63,9 @@ const LandingPage = () => {
             <img src={landingPageImg}></img>
           </a>
         </div>
-      </div>
-    </>
+      </section>
+    </main>
+
   );
 };
 

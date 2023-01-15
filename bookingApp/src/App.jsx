@@ -1,6 +1,8 @@
 import '../src/index.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import LandingPage from './pages/LandingPage'
+import Navbar from './components/Navbar'
+import Premises from './pages/premises'
 
 
 
@@ -11,7 +13,7 @@ function App() {
     <Router>
 
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<Premises />} />
 
       </Routes>
 
