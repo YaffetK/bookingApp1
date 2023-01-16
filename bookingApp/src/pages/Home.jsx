@@ -4,7 +4,7 @@ import '../../src/index.css'
 import logo from "../../src/assets/mugiwara.png"
 import Navbar from "../components/Navbar";
 import LoginForm from "../components/LoginForm";
-import { Link } from "react-router-dom";
+import axios from "axios";
 
 
 const Home = () => {
@@ -13,21 +13,13 @@ const Home = () => {
 
     // Check async await - read about callback hell
     // ORM = Object Relational Mapping. 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
 
-        fetch('localhost:3000/player', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({
-                email,
-                password
-            })
+        axios.get("localhost:3000/player").then(res => {
+            console.log(res.data)
         })
-            .then(res => res.json())
-            .then(data => console.log(data))
-            .catch(() => console.log('Error'))
+
 
     }
 
