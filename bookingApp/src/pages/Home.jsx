@@ -17,7 +17,7 @@ const Home = () => {
         e.preventDefault();
 
         axios.get("localhost:3000/player").then(res => {
-            console.log(res.data)
+            setEmail(res.data.email);
         })
 
 
